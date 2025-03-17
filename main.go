@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
@@ -17,6 +18,12 @@ import (
 
 func setupRouter() *gin.Engine {
 	r := gin.Default()
+
+	config := cors.DefaultConfig()
+	config.AllowAllOrigins = true // 開発環境
+	config.AllowHeaders = []string{"Origin", "Content-Type", "Accept"}
+	config.AllowMethods = []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}
+	r.Use(cors.New(config))
 
 	// Ping test
 	r.GET("/ping", func(c *gin.Context) {
