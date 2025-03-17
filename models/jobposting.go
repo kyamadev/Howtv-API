@@ -9,6 +9,7 @@ type JobPosting struct {
 	gorm.Model
 	UUID           uuid.UUID  `gorm:"type:uuid;primaryKey" json:"uuid"`
 	CompanyID      uint       `json:"company_id"`
+	Company        Company    `json:"company,omitempty" gorm:"foreignKey:CompanyID"` // 会社情報との関連付け
 	Title          string     `json:"title"`
 	Description    string     `json:"description"`
 	Requirements   string     `json:"requirements"`

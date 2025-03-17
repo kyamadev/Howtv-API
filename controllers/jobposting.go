@@ -12,10 +12,22 @@ import (
 // GetJobPostings returns all job postings with their positions
 func GetJobPostings(c *gin.Context) {
 	var jobs []models.JobPosting
-	if err := DB.Preload("Positions").Find(&jobs).Error; err != nil {
+
+	// クエリパラメータを取得
+	includeCompany := c.Query("include_company") == "true"
+
+	query := DB.Preload("Positions")
+
+	// include_company=true の場合は会社情報も含める
+	if includeCompany {
+		query = query.Preload("Company")
+	}
+
+	if err := query.Find(&jobs).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
 	}
+
 	c.JSON(http.StatusOK, jobs)
 }
 
@@ -30,11 +42,22 @@ func GetJobPosting(c *gin.Context) {
 		return
 	}
 
+	// クエリパラメータを取得
+	includeCompany := c.Query("include_company") == "true"
+
 	var job models.JobPosting
-	if err := DB.Preload("Positions").Where("uuid = ?", jobUUID).First(&job).Error; err != nil {
+	query := DB.Preload("Positions")
+
+	// include_company=true の場合は会社情報も含める
+	if includeCompany {
+		query = query.Preload("Company")
+	}
+
+	if err := query.Where("uuid = ?", jobUUID).First(&job).Error; err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"error": "Job posting not found"})
 		return
 	}
+
 	c.JSON(http.StatusOK, job)
 }
 
@@ -87,9 +110,17 @@ func CreateJobPosting(c *gin.Context) {
 		return
 	}
 
-	// Return the created job with positions
+	// Return the created job with positions and optionally company
 	var createdJob models.JobPosting
-	if err := DB.Preload("Positions").Where("uuid = ?", jobDTO.JobPosting.UUID).First(&createdJob).Error; err != nil {
+	query := DB.Preload("Positions")
+
+	// クエリパラメータを取得してcompanyを含めるかどうか決定
+	includeCompany := c.Query("include_company") == "true"
+	if includeCompany {
+		query = query.Preload("Company")
+	}
+
+	if err := query.Where("uuid = ?", jobDTO.JobPosting.UUID).First(&createdJob).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Job created but failed to retrieve it"})
 		return
 	}
@@ -166,9 +197,17 @@ func UpdateJobPosting(c *gin.Context) {
 		return
 	}
 
-	// Return the updated job with positions
+	// Return the updated job with positions and optionally company
 	var updatedJob models.JobPosting
-	if err := DB.Preload("Positions").Where("uuid = ?", jobUUID).First(&updatedJob).Error; err != nil {
+	query := DB.Preload("Positions")
+
+	// クエリパラメータを取得してcompanyを含めるかどうか決定
+	includeCompany := c.Query("include_company") == "true"
+	if includeCompany {
+		query = query.Preload("Company")
+	}
+
+	if err := query.Where("uuid = ?", jobUUID).First(&updatedJob).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Job updated but failed to retrieve it"})
 		return
 	}
