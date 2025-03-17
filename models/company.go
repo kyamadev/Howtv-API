@@ -4,12 +4,13 @@ import (
 	"gorm.io/gorm"
 )
 
-type company struct {
+type Company struct {
 	gorm.Model
 	UUID        uint         `json:"uuid" gorm:"primarykey"`
 	Name        string       `json:"name"`
-	Addewss     string       `json:"address"`
+	Address     string       `json:"address"`
+	Industry    string       `json:"industry"`
 	Website     string       `json:"website"`
 	LogoURL     string       `json:"logo_url"`
-	JobPostings []JobPosting `json:"job_postings gorm:"foreignKey:CompanyID"`
+	JobPostings []JobPosting `json:"job_postings" gorm:"foreignKey:CompanyID"`
 }

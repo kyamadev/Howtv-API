@@ -1,382 +1,422 @@
 {
   "companies": [
     {
-      "name": "Alpha Inc.",
-      "address": "東京都港区1-2-3",
+      "name": "TechFront株式会社",
+      "address": "東京都渋谷区神南1-2-3",
       "industry": "IT",
-      "website": "https://alpha.com",
+      "website": "https://techfront.co.jp",
       "job_postings": [
         {
-          "title": "フルリモートエンジニア",
-          "description": "Alpha Inc. is looking for a talented engineer to join our fully remote team working on cutting-edge cloud solutions.",
-          "requirements": "Minimum 3 years of software development experience; proficiency in Go and Python.",
-          "salary_range": "700万〜1000万円",
+          "title": "ReactとTypeScriptを使用したフロントエンド開発",
+          "description": "当社では、企業向けSaaSプロダクトのフロントエンド開発を担当するエンジニアを募集しています。UIコンポーネントの設計・実装からパフォーマンス最適化まで、モダンなフロントエンド開発スキルを活かし、ユーザー体験の向上に貢献していただきます。リモートワーク可能な環境で、フレキシブルな働き方をサポートします。",
+          "requirements": "3年以上のフロントエンド開発経験、ReactとTypeScriptの実務経験、レスポンシブデザインの理解。Nextjs経験者歓迎。",
+          "salary_range": "600万〜900万円",
           "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-10T00:00:00Z",
+          "closing_date": "2025-04-10T00:00:00Z",
+          "status": "公開中",
+          "positions": ["フロントエンドエンジニア"]
+        }
+      ]
+    },
+    {
+      "name": "BackendTech株式会社",
+      "address": "東京都千代田区神田3-4-5",
+      "industry": "IT",
+      "website": "https://backendtech.jp",
+      "job_postings": [
+        {
+          "title": "Goを使用したマイクロサービス開発エンジニア",
+          "description": "当社のエンジニアチームでは、Goを使用した高パフォーマンスなバックエンドマイクロサービスの設計・開発を担当していただきます。大規模トラフィックを処理するシステムの開発に携わり、技術的な課題を解決していく役割です。コンテナ技術やクラウドインフラの知識を活かせる環境です。",
+          "requirements": "3年以上のGoでの開発経験、マイクロサービスアーキテクチャの理解、RDBMSとNoSQLの知識。gRPC経験者優遇。",
+          "salary_range": "700万〜1000万円",
+          "location": "東京都千代田区",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-12T00:00:00Z",
+          "closing_date": "2025-04-12T00:00:00Z",
+          "status": "公開中",
+          "positions": ["バックエンドエンジニア"]
+        }
+      ]
+    },
+    {
+      "name": "フルスタックソリューションズ株式会社",
+      "address": "東京都新宿区西新宿2-3-1",
+      "industry": "IT",
+      "website": "https://fullstack-solutions.co.jp",
+      "job_postings": [
+        {
+          "title": "フルスタックエンジニア（React/Node.js）",
+          "description": "フロントエンドからバックエンドまで一貫して開発できるフルスタックエンジニアを募集しています。主にReactとNode.jsを使用したWebアプリケーション開発をお任せします。顧客との要件定義から設計、開発、テストまでエンドツーエンドで携わることができます。リモートワーク中心の柔軟な勤務形態です。",
+          "requirements": "5年以上のWeb開発経験、React、Node.js、Express.jsの実務経験、RDBMSの知識。GraphQL経験者歓迎。",
+          "salary_range": "650万〜950万円",
+          "location": "フルリモート（月1回の東京オフィス出社あり）",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-15T00:00:00Z",
+          "closing_date": "2025-04-15T00:00:00Z",
+          "status": "公開中",
+          "positions": ["フロントエンドエンジニア", "バックエンドエンジニア", "フルスタックエンジニア"]
+        }
+      ]
+    },
+    {
+      "name": "モバイルアプリ開発株式会社",
+      "address": "東京都渋谷区代々木1-5-6",
+      "industry": "IT",
+      "website": "https://mobile-dev.co.jp",
+      "job_postings": [
+        {
+          "title": "Flutterモバイルアプリエンジニア",
+          "description": "Flutterを使用したクロスプラットフォームモバイルアプリケーションの開発を担当していただきます。ユーザー体験の向上に重点を置き、デザイナーやプロダクトマネージャーと協力してアプリ開発を推進していきます。主要なプロジェクトはフィンテック系アプリと健康管理アプリです。",
+          "requirements": "2年以上のFlutter開発経験、Dart言語の習熟度、iOSおよびAndroidのネイティブ開発の理解。Firebase経験者優遇。",
+          "salary_range": "600万〜850万円",
+          "location": "東京都渋谷区",
           "employment_type": "正社員",
           "posting_date": "2025-03-17T00:00:00Z",
           "closing_date": "2025-04-17T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["モバイルエンジニア"]
         }
       ]
     },
     {
-      "name": "Beta Solutions",
-      "address": "東京都新宿区4-5-6",
+      "name": "クラウドインフラ株式会社",
+      "address": "東京都品川区大崎2-1-1",
       "industry": "IT",
-      "website": "https://beta-solutions.com",
+      "website": "https://cloud-infra.co.jp",
       "job_postings": [
         {
-          "title": "東京ポジションエンジニア",
-          "description": "Beta Solutions seeks experienced engineers for our Tokyo office to develop innovative software products.",
-          "requirements": "2+ years in software development; expertise in JavaScript and React.",
-          "salary_range": "650万〜950万円",
-          "location": "東京都新宿区",
+          "title": "クラウドインフラエンジニア（AWS）",
+          "description": "AWSを中心としたクラウドインフラの設計、構築、運用を担当していただきます。Infrastructure as Codeを推進し、自動化による効率的なインフラ構築を実現します。コストの最適化とセキュリティ強化を両立させるクラウド環境の提案も重要な業務の一つです。",
+          "requirements": "3年以上のAWS環境での実務経験、Terraform等のIaCツールの経験、Linuxサーバー管理スキル。AWS認定資格保持者歓迎。",
+          "salary_range": "700万〜950万円",
+          "location": "フルリモート",
           "employment_type": "正社員",
           "posting_date": "2025-03-18T00:00:00Z",
           "closing_date": "2025-04-18T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["インフラエンジニア", "DevOpsエンジニア"]
         }
       ]
     },
     {
-      "name": "Gamma Technologies",
-      "address": "東京都渋谷区2-3-4",
+      "name": "データアナリティクス株式会社",
+      "address": "東京都港区六本木1-3-4",
       "industry": "IT",
-      "website": "https://gamma-tech.com",
+      "website": "https://data-analytics.co.jp",
       "job_postings": [
         {
-          "title": "フルリモートエンジニア",
-          "description": "Join Gamma Technologies' remote team and work on scalable web services for international clients.",
-          "requirements": "3+ years of backend development experience; familiarity with cloud platforms.",
-          "salary_range": "720万〜980万円",
-          "location": "フルリモート",
+          "title": "データエンジニア（BigQuery/Spark）",
+          "description": "大規模データ処理基盤の設計、開発、運用を担当していただきます。Google Cloud PlatformとBigQueryを主に使用し、データレイクからデータウェアハウスまでのデータパイプラインを構築します。分析チームと連携し、効率的なデータ活用基盤を提供するポジションです。",
+          "requirements": "3年以上のデータエンジニアリング経験、Google Cloud Platform（特にBigQuery）の知識、SparkやAirflowの実務経験。データモデリングの知識があると望ましい。",
+          "salary_range": "750万〜1000万円",
+          "location": "東京都港区",
           "employment_type": "正社員",
           "posting_date": "2025-03-19T00:00:00Z",
           "closing_date": "2025-04-19T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["データエンジニア"]
         }
       ]
     },
     {
-      "name": "Delta Ltd.",
-      "address": "東京都中央区3-4-5",
-      "industry": "IT",
-      "website": "https://delta-ltd.com",
+      "name": "AI研究開発株式会社",
+      "address": "東京都文京区本郷3-2-1",
+      "industry": "AI/ML",
+      "website": "https://ai-research-dev.co.jp",
       "job_postings": [
         {
-          "title": "東京ポジションエンジニア",
-          "description": "Delta Ltd. invites seasoned engineers to work in our modern Tokyo office, contributing to innovative product development.",
-          "requirements": "Proven experience in software design; strong skills in Java and Spring.",
-          "salary_range": "680万〜960万円",
-          "location": "東京都中央区",
+          "title": "機械学習エンジニア（自然言語処理）",
+          "description": "自然言語処理技術を活用した製品開発を行うAIエンジニアを募集しています。言語モデルの構築、チューニング、デプロイメントを担当し、テキスト分析や会話システムの開発に取り組んでいただきます。研究開発から実装まで一貫して関わることができる環境です。",
+          "requirements": "3年以上のPythonによる開発経験、機械学習フレームワーク（PyTorch/TensorFlow）の知識、NLPプロジェクトの実務経験。深層学習の理論的な理解があると望ましい。",
+          "salary_range": "800万〜1100万円",
+          "location": "フルリモート",
           "employment_type": "正社員",
           "posting_date": "2025-03-20T00:00:00Z",
           "closing_date": "2025-04-20T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["AI/ML エンジニア", "データエンジニア"]
         }
       ]
     },
     {
-      "name": "Epsilon LLC",
-      "address": "東京都港区1-2-3",
+      "name": "DevOpsソリューションズ株式会社",
+      "address": "東京都中央区日本橋2-5-1",
       "industry": "IT",
-      "website": "https://epsilonllc.com",
+      "website": "https://devops-solutions.co.jp",
       "job_postings": [
         {
-          "title": "フルリモートエンジニア",
-          "description": "Epsilon LLC is hiring for a fully remote position focused on developing state-of-the-art mobile applications.",
-          "requirements": "Experience with iOS or Android development; knowledge of UI/UX principles.",
-          "salary_range": "710万〜990万円",
-          "location": "フルリモート",
+          "title": "DevOpsエンジニア（Kubernetes）",
+          "description": "CI/CDパイプラインの構築・改善、Kubernetesを使用したコンテナオーケストレーション環境の設計・運用を担当していただきます。開発チームと運用チームの架け橋となり、安定したリリースサイクルの確立と運用自動化を推進するポジションです。",
+          "requirements": "4年以上のインフラエンジニアとしての経験、Kubernetes、Docker、CI/CDツール（Jenkins/GitLab CI等）の実務経験、Infrastructure as Codeの実践。",
+          "salary_range": "750万〜1050万円",
+          "location": "東京都中央区",
           "employment_type": "正社員",
           "posting_date": "2025-03-21T00:00:00Z",
           "closing_date": "2025-04-21T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["DevOpsエンジニア", "インフラエンジニア"]
         }
       ]
     },
     {
-      "name": "Zeta Corporation",
-      "address": "東京都渋谷区2-3-4",
-      "industry": "IT",
-      "website": "https://zetacorp.com",
+      "name": "サイバーセキュリティ株式会社",
+      "address": "東京都千代田区霞が関1-4-1",
+      "industry": "IT/セキュリティ",
+      "website": "https://cyber-security.co.jp",
       "job_postings": [
         {
-          "title": "東京ポジションエンジニア",
-          "description": "Zeta Corporation is expanding its Tokyo team to develop robust enterprise software solutions.",
-          "requirements": "2+ years of development experience; expertise in .NET and C#.",
-          "salary_range": "670万〜950万円",
-          "location": "東京都渋谷区",
+          "title": "セキュリティエンジニア（クラウドセキュリティ）",
+          "description": "クラウド環境におけるセキュリティ対策の設計、導入、運用を担当していただきます。セキュリティ評価、脆弱性診断、インシデント対応など、幅広いセキュリティ業務に携わります。また、社内のセキュリティポリシーの策定や改訂にも参画していただきます。",
+          "requirements": "3年以上のITセキュリティ分野での経験、AWS/GCP/Azureいずれかのクラウドセキュリティの知識、脆弱性診断や侵入テストの経験。セキュリティ関連資格（CISSP等）保持者歓迎。",
+          "salary_range": "800万〜1100万円",
+          "location": "フルリモート",
           "employment_type": "正社員",
           "posting_date": "2025-03-22T00:00:00Z",
           "closing_date": "2025-04-22T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["セキュリティエンジニア"]
         }
       ]
     },
     {
-      "name": "Eta Global",
-      "address": "東京都新宿区4-5-6",
+      "name": "品質保証テック株式会社",
+      "address": "東京都新宿区西新宿6-8-1",
       "industry": "IT",
-      "website": "https://etaglobal.com",
+      "website": "https://qa-tech.co.jp",
       "job_postings": [
         {
-          "title": "フルリモートエンジニア",
-          "description": "Eta Global offers a fully remote role focused on developing next-generation fintech solutions.",
-          "requirements": "Strong background in software engineering; experience with microservices architecture.",
-          "salary_range": "730万〜1020万円",
-          "location": "フルリモート",
+          "title": "QAエンジニア（自動テスト）",
+          "description": "テスト自動化フレームワークの設計・開発、CI/CDパイプラインへのテスト自動化の組み込みを担当していただきます。単体テストから統合テスト、パフォーマンステストまで幅広いテスト戦略を策定し、品質向上に貢献するポジションです。",
+          "requirements": "3年以上のQAエンジニアとしての経験、テスト自動化ツール（Selenium/Cypress等）の実務経験、JavaScriptまたはPythonのプログラミングスキル。BDDフレームワーク経験者優遇。",
+          "salary_range": "600万〜850万円",
+          "location": "東京都新宿区",
           "employment_type": "正社員",
           "posting_date": "2025-03-23T00:00:00Z",
           "closing_date": "2025-04-23T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["QAエンジニア"]
         }
       ]
     },
     {
-      "name": "Theta International",
-      "address": "東京都中央区3-4-5",
+      "name": "イノベーションテクノロジー株式会社",
+      "address": "東京都目黒区中目黒3-1-2",
       "industry": "IT",
-      "website": "https://theta-intl.com",
+      "website": "https://innovation-tech.co.jp",
       "job_postings": [
         {
-          "title": "東京ポジションエンジニア",
-          "description": "Theta International is looking for skilled engineers to join our Tokyo-based team developing innovative digital platforms.",
-          "requirements": "Experience with full-stack development; proficiency in JavaScript and Node.js.",
-          "salary_range": "690万〜970万円",
-          "location": "東京都中央区",
+          "title": "IoTエンジニア（組込みシステム）",
+          "description": "IoTデバイスの組込みソフトウェア開発とクラウドサービスとの連携システムの構築を担当していただきます。ハードウェアからクラウドまでを繋ぐエンドツーエンドのIoTソリューション開発に携わるポジションです。",
+          "requirements": "3年以上の組込みソフトウェア開発経験、C/C++によるプログラミングスキル、マイコンやLinuxボード上での開発経験。IoTプロトコル（MQTT等）の知識があると望ましい。",
+          "salary_range": "650万〜900万円",
+          "location": "東京都目黒区",
           "employment_type": "正社員",
           "posting_date": "2025-03-24T00:00:00Z",
           "closing_date": "2025-04-24T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["バックエンドエンジニア"]
         }
       ]
     },
     {
-      "name": "Iota Systems",
-      "address": "東京都港区1-2-3",
-      "industry": "IT",
-      "website": "https://iotasys.com",
+      "name": "クリエイティブウェブ株式会社",
+      "address": "東京都渋谷区恵比寿1-2-3",
+      "industry": "Web制作",
+      "website": "https://creative-web.co.jp",
       "job_postings": [
         {
-          "title": "フルリモートエンジニア",
-          "description": "Iota Systems is recruiting for a fully remote engineering position focused on developing scalable cloud-native applications.",
-          "requirements": "5+ years of experience in system design and implementation; cloud certification is a plus.",
-          "salary_range": "750万〜1050万円",
+          "title": "Webデザイナー兼フロントエンドエンジニア",
+          "description": "デザインからコーディングまでを一貫して担当できるWebデザイナー兼フロントエンドエンジニアを募集しています。コーポレートサイトやブランドサイトなどの制作プロジェクトに携わり、優れたユーザー体験を実現するデザインと実装を手がけていただきます。",
+          "requirements": "3年以上のWebデザイン経験、HTML/CSS/JavaScriptのコーディングスキル、Adobe XD/Figmaなどの使用経験。アニメーション実装の経験があると望ましい。",
+          "salary_range": "550万〜800万円",
           "location": "フルリモート",
           "employment_type": "正社員",
           "posting_date": "2025-03-25T00:00:00Z",
           "closing_date": "2025-04-25T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["フロントエンドエンジニア"]
         }
       ]
     },
     {
-      "name": "Kappa Digital",
-      "address": "東京都渋谷区2-3-4",
-      "industry": "IT",
-      "website": "https://kappadigital.com",
+      "name": "CRMシステムズ株式会社",
+      "address": "東京都豊島区池袋2-1-8",
+      "industry": "ITサービス",
+      "website": "https://crm-systems.co.jp",
       "job_postings": [
         {
-          "title": "東京ポジションエンジニア",
-          "description": "Kappa Digital seeks innovative engineers for our Tokyo office to work on next-generation e-commerce platforms.",
-          "requirements": "Strong expertise in web development; experience with modern JavaScript frameworks.",
-          "salary_range": "680万〜970万円",
-          "location": "東京都渋谷区",
+          "title": "Salesforceエンジニア",
+          "description": "Salesforceプラットフォームを活用したCRMシステムの設計、開発、導入を担当していただきます。顧客の業務改善やデジタルトランスフォーメーションを支援し、カスタマイズやインテグレーションを通じて最適なソリューションを提供するポジションです。",
+          "requirements": "2年以上のSalesforce開発経験、Apexコーディングのスキル、Lightning Componentの開発経験。Salesforce認定資格保持者優遇。",
+          "salary_range": "600万〜900万円",
+          "location": "東京都豊島区",
           "employment_type": "正社員",
           "posting_date": "2025-03-26T00:00:00Z",
           "closing_date": "2025-04-26T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["バックエンドエンジニア", "フルスタックエンジニア"]
         }
       ]
     },
     {
-      "name": "Lambda Innovations",
-      "address": "東京都新宿区4-5-6",
+      "name": "アジャイル開発株式会社",
+      "address": "東京都世田谷区三軒茶屋1-5-2",
       "industry": "IT",
-      "website": "https://lambdainnovations.com",
+      "website": "https://agile-dev.co.jp",
       "job_postings": [
         {
-          "title": "フルリモートエンジニア",
-          "description": "Lambda Innovations is offering a fully remote role for an engineer passionate about developing innovative AI solutions.",
-          "requirements": "Expertise in machine learning frameworks; experience with Python and TensorFlow.",
-          "salary_range": "760万〜1060万円",
+          "title": "スクラムマスター兼エンジニア",
+          "description": "スクラムマスターとしてアジャイル開発のプラクティスを導入・定着させながら、開発チームの一員としても活躍していただきます。プロジェクト管理とエンジニアリングの両面からチームの生産性と製品品質の向上に貢献するポジションです。",
+          "requirements": "3年以上のソフトウェア開発経験、スクラムマスターとしての実績、アジャイル開発手法への深い理解。認定スクラムマスター（CSM）資格保持者歓迎。",
+          "salary_range": "650万〜950万円",
           "location": "フルリモート",
           "employment_type": "正社員",
           "posting_date": "2025-03-27T00:00:00Z",
           "closing_date": "2025-04-27T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["フルスタックエンジニア"]
         }
       ]
     },
     {
-      "name": "Mu Networks",
-      "address": "東京都中央区3-4-5",
+      "name": "グローバルIT株式会社",
+      "address": "東京都千代田区丸の内1-2-1",
       "industry": "IT",
-      "website": "https://munetworks.com",
+      "website": "https://global-it.co.jp",
       "job_postings": [
         {
-          "title": "東京ポジションエンジニア",
-          "description": "Mu Networks is expanding its Tokyo operations and seeks engineers to work on cutting-edge network infrastructure projects.",
-          "requirements": "Strong knowledge of networking protocols; experience in high-performance system development.",
-          "salary_range": "700万〜1000万円",
-          "location": "東京都中央区",
+          "title": "バイリンガルフルスタックエンジニア",
+          "description": "グローバルに展開するWebサービスの開発を担当するバイリンガルエンジニアを募集しています。フロントエンドからバックエンドまで幅広い技術スタックを活用し、国際チームと協力しながらプロダクト開発を進めていただきます。英語力を活かしたい方に最適なポジションです。",
+          "requirements": "5年以上のWeb開発経験、JavaScript/TypeScriptとバックエンド言語（Ruby/Python/Java等）の実務経験、ビジネスレベルの英語力（目安：TOEIC 800点以上）。",
+          "salary_range": "800万〜1200万円",
+          "location": "東京都千代田区（リモート勤務3日/週可）",
           "employment_type": "正社員",
           "posting_date": "2025-03-28T00:00:00Z",
           "closing_date": "2025-04-28T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["フロントエンドエンジニア", "バックエンドエンジニア", "フルスタックエンジニア"]
         }
       ]
     },
     {
-      "name": "Nu Ventures",
-      "address": "東京都港区1-2-3",
-      "industry": "IT",
-      "website": "https://nuventures.com",
+      "name": "ブロックチェーン技術株式会社",
+      "address": "東京都港区赤坂3-3-3",
+      "industry": "ブロックチェーン/IT",
+      "website": "https://blockchain-tech.co.jp",
       "job_postings": [
         {
-          "title": "フルリモートエンジニア",
-          "description": "Nu Ventures invites experienced engineers to join our fully remote team, driving innovation in the fintech sector.",
-          "requirements": "Experience in fintech solutions; proficiency in Java and Python.",
-          "salary_range": "730万〜1020万円",
+          "title": "ブロックチェーンエンジニア",
+          "description": "分散型アプリケーション（DApps）やスマートコントラクトの設計・開発を担当していただきます。イーサリアムやポリゴンなどの主要なブロックチェーンプラットフォーム上での開発経験を活かし、次世代のWeb3サービス構築に携わるポジションです。",
+          "requirements": "2年以上のブロックチェーン開発経験、Solidity言語の習熟度、Web3.jsやethers.jsの使用経験。暗号通貨やNFTプロジェクトの開発経験があると望ましい。",
+          "salary_range": "700万〜1100万円",
           "location": "フルリモート",
           "employment_type": "正社員",
           "posting_date": "2025-03-29T00:00:00Z",
           "closing_date": "2025-04-29T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["バックエンドエンジニア"]
         }
       ]
     },
     {
-      "name": "Xi Enterprises",
-      "address": "東京都渋谷区2-3-4",
-      "industry": "IT",
-      "website": "https://xi-enterprises.com",
+      "name": "ゲーム開発スタジオ株式会社",
+      "address": "東京都杉並区高円寺4-5-6",
+      "industry": "ゲーム開発",
+      "website": "https://game-dev-studio.co.jp",
       "job_postings": [
         {
-          "title": "東京ポジションエンジニア",
-          "description": "Xi Enterprises is hiring for a Tokyo-based role to develop innovative digital solutions for global markets.",
-          "requirements": "Proficiency in full-stack development; experience with modern frameworks is a plus.",
-          "salary_range": "710万〜990万円",
-          "location": "東京都渋谷区",
+          "title": "Unityエンジニア",
+          "description": "モバイルゲームの開発をメインとするUnityエンジニアを募集しています。ゲームロジックの実装からパフォーマンス最適化、プラグイン開発まで幅広い業務を担当していただきます。クリエイティブチームと連携し、魅力的なゲーム体験の創出に貢献するポジションです。",
+          "requirements": "3年以上のUnity開発経験、C#プログラミングスキル、モバイルゲーム開発の知識。3Dグラフィックスの基礎知識があると望ましい。",
+          "salary_range": "600万〜900万円",
+          "location": "東京都杉並区",
           "employment_type": "正社員",
           "posting_date": "2025-03-30T00:00:00Z",
           "closing_date": "2025-04-30T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["モバイルエンジニア"]
         }
       ]
     },
     {
-      "name": "Omicron Group",
-      "address": "東京都新宿区4-5-6",
-      "industry": "IT",
-      "website": "https://omicrongroup.com",
+      "name": "EC技術株式会社",
+      "address": "東京都江東区豊洲1-1-1",
+      "industry": "EC/IT",
+      "website": "https://ec-tech.co.jp",
       "job_postings": [
         {
-          "title": "フルリモートエンジニア",
-          "description": "Omicron Group offers a fully remote position for an engineer with expertise in distributed systems and microservices.",
-          "requirements": "Experience with Docker, Kubernetes, and cloud-native applications.",
-          "salary_range": "740万〜1030万円",
-          "location": "フルリモート",
+          "title": "ECプラットフォームエンジニア",
+          "description": "大規模ECサイトの開発・運用を担当するバックエンドエンジニアを募集しています。高トラフィックに耐えうるスケーラブルなシステム設計、パフォーマンス最適化、決済システム連携などを担当していただきます。ECビジネスの成長を技術面から支えるポジションです。",
+          "requirements": "4年以上のWebアプリケーション開発経験、Java/Kotlinでの開発スキル、RDBMSの知識、ECサイト開発の経験。マイクロサービスアーキテクチャの理解があると望ましい。",
+          "salary_range": "650万〜950万円",
+          "location": "東京都江東区（リモート勤務2日/週可）",
           "employment_type": "正社員",
           "posting_date": "2025-03-31T00:00:00Z",
-          "closing_date": "2025-04-31T00:00:00Z",
-          "status": "公開中"
+          "closing_date": "2025-05-01T00:00:00Z",
+          "status": "公開中",
+          "positions": ["バックエンドエンジニア"]
         }
       ]
     },
     {
-      "name": "Pi Partners",
-      "address": "東京都中央区3-4-5",
-      "industry": "IT",
-      "website": "https://pupartners.com",
+      "name": "ヘルステック株式会社",
+      "address": "東京都文京区本郷5-3-2",
+      "industry": "ヘルスケア/IT",
+      "website": "https://health-tech.co.jp",
       "job_postings": [
         {
-          "title": "東京ポジションエンジニア",
-          "description": "Pi Partners is seeking innovative engineers to work at our Tokyo office on next-generation enterprise solutions.",
-          "requirements": "Experience in enterprise software development; familiarity with cloud services.",
-          "salary_range": "720万〜1000万円",
-          "location": "東京都中央区",
+          "title": "ヘルスケアアプリ開発エンジニア",
+          "description": "健康管理や医療支援を目的としたモバイルアプリの開発を担当していただきます。医療データの安全な取り扱いを考慮しながら、使いやすく効果的なヘルスケアソリューションを構築します。医療従事者やユーザーと協力し、社会的意義のある製品開発に携わるポジションです。",
+          "requirements": "3年以上のモバイルアプリ開発経験（Swift/KotlinまたはFlutter/React Native）、ヘルスケア関連APIやBLEデバイス連携の知識。医療系アプリの開発経験があると望ましい。",
+          "salary_range": "650万〜900万円",
+          "location": "フルリモート",
           "employment_type": "正社員",
           "posting_date": "2025-04-01T00:00:00Z",
-          "closing_date": "2025-05-01T00:00:00Z",
-          "status": "公開中"
+          "closing_date": "2025-05-02T00:00:00Z",
+          "status": "公開中",
+          "positions": ["モバイルエンジニア", "フルスタックエンジニア"]
         }
       ]
     },
     {
-      "name": "Rho Dynamics",
-      "address": "東京都港区1-2-3",
-      "industry": "IT",
-      "website": "https://rhodynamics.com",
+      "name": "フィンテックイノベーション株式会社",
+      "address": "東京都千代田区大手町1-6-1",
+      "industry": "フィンテック",
+      "website": "https://fintech-innovation.co.jp",
       "job_postings": [
         {
-          "title": "フルリモートエンジニア",
-          "description": "Rho Dynamics is looking for a remote engineer to join our international team focused on advanced analytics platforms.",
-          "requirements": "5+ years in software development; experience with data analytics tools.",
-          "salary_range": "750万〜1050万円",
-          "location": "フルリモート",
+          "title": "フィンテックバックエンドエンジニア",
+          "description": "次世代の金融サービスを支えるバックエンド開発を担当していただきます。決済システム、取引プラットフォーム、リスク分析エンジンなど、ミッションクリティカルな金融システムの設計・開発に携わります。セキュリティと高可用性を重視した開発経験を積めるポジションです。",
+          "requirements": "5年以上のバックエンド開発経験、Java/Go/Pythonいずれかの言語に習熟、金融システムの知識、セキュリティを考慮した設計経験。金融機関での開発経験があると望ましい。",
+          "salary_range": "800万〜1200万円",
+          "location": "東京都千代田区",
           "employment_type": "正社員",
           "posting_date": "2025-04-02T00:00:00Z",
-          "closing_date": "2025-05-02T00:00:00Z",
-          "status": "公開中"
+          "closing_date": "2025-05-03T00:00:00Z",
+          "status": "公開中",
+          "positions": ["バックエンドエンジニア"]
         }
       ]
     },
     {
-      "name": "Sigma Analytics",
-      "address": "東京都渋谷区2-3-4",
+      "name": "テックスタートアップ株式会社",
+      "address": "東京都渋谷区神宮前6-12-18",
       "industry": "IT",
-      "website": "https://sigmaanalytics.com",
+      "website": "https://tech-startup.co.jp",
       "job_postings": [
         {
-          "title": "東京ポジションエンジニア",
-          "description": "Sigma Analytics seeks engineers for our Tokyo office to develop data-driven insights for global enterprises.",
-          "requirements": "Strong analytical skills; experience with SQL, Python, and data visualization tools.",
-          "salary_range": "730万〜1010万円",
-          "location": "東京都渋谷区",
+          "title": "創業エンジニア（CTO候補）",
+          "description": "シリーズAのスタートアップで技術部門を牽引する創業エンジニアを募集しています。プロダクトの技術戦略の策定、アーキテクチャ設計、チーム構築などを担当し、将来的にはCTOとして会社の成長をリードしていただきます。大きな裁量と責任を持って働ける環境です。",
+          "requirements": "8年以上のソフトウェア開発経験、アーキテクチャ設計のスキル、チームマネジメント経験、スタートアップでの就業経験。起業経験者も歓迎。",
+          "salary_range": "1000万〜1500万円（ストックオプション別途）",
+          "location": "フルリモート（月1回の東京オフィス出社あり）",
           "employment_type": "正社員",
           "posting_date": "2025-04-03T00:00:00Z",
-          "closing_date": "2025-05-03T00:00:00Z",
-          "status": "公開中"
-        }
-      ]
-    },
-    {
-      "name": "Tau Industries",
-      "address": "東京都新宿区4-5-6",
-      "industry": "IT",
-      "website": "https://tauindustries.com",
-      "job_postings": [
-        {
-          "title": "フルリモートエンジニア",
-          "description": "Tau Industries offers a fully remote engineering role to innovate in IoT and smart devices.",
-          "requirements": "Experience in IoT development; strong background in embedded systems.",
-          "salary_range": "740万〜1020万円",
-          "location": "フルリモート",
-          "employment_type": "正社員",
-          "posting_date": "2025-04-04T00:00:00Z",
           "closing_date": "2025-05-04T00:00:00Z",
-          "status": "公開中"
-        }
-      ]
-    },
-    {
-      "name": "Upsilon Technologies",
-      "address": "東京都中央区3-4-5",
-      "industry": "IT",
-      "website": "https://upsilontech.com",
-      "job_postings": [
-        {
-          "title": "東京ポジションエンジニア",
-          "description": "Upsilon Technologies is recruiting for a Tokyo-based role focused on developing innovative software solutions for global markets.",
-          "requirements": "Experience in software architecture; proficiency in modern web technologies.",
-          "salary_range": "710万〜990万円",
-          "location": "東京都中央区",
-          "employment_type": "正社員",
-          "posting_date": "2025-04-05T00:00:00Z",
-          "closing_date": "2025-05-05T00:00:00Z",
-          "status": "公開中"
+          "status": "公開中",
+          "positions": ["フルスタックエンジニア", "バックエンドエンジニア"]
         }
       ]
     }

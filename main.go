@@ -1,16 +1,21 @@
 package main
 
 import (
+	"log"
 	"net/http"
+	"os"
 
 	"github.com/gin-gonic/gin"
+	"gorm.io/driver/sqlite"
+	"gorm.io/gorm"
+
+	"howtv-server/config"
+	"howtv-server/controllers"
+	"howtv-server/models"
+	"howtv-server/scripts"
 )
 
-var db = make(map[string]string)
-
 func setupRouter() *gin.Engine {
-	// Disable Console Color
-	// gin.DisableConsoleColor()
 	r := gin.Default()
 
 	// Ping test
@@ -18,57 +23,63 @@ func setupRouter() *gin.Engine {
 		c.String(http.StatusOK, "pong")
 	})
 
-	// Get user value
-	r.GET("/user/:name", func(c *gin.Context) {
-		user := c.Params.ByName("name")
-		value, ok := db[user]
-		if ok {
-			c.JSON(http.StatusOK, gin.H{"user": user, "value": value})
-		} else {
-			c.JSON(http.StatusOK, gin.H{"user": user, "status": "no value"})
-		}
-	})
+	// API v1 routes
+	v1 := r.Group("/api/v1")
+	{
+		// Job Postings
+		v1.GET("/jobs", controllers.GetJobPostings)
+		v1.GET("/jobs/:uuid", controllers.GetJobPosting)
+		v1.POST("/jobs", controllers.CreateJobPosting)
+		v1.PUT("/jobs/:uuid", controllers.UpdateJobPosting)
+		v1.DELETE("/jobs/:uuid", controllers.DeleteJobPosting)
 
-	// Authorized group (uses gin.BasicAuth() middleware)
-	// Same than:
-	// authorized := r.Group("/")
-	// authorized.Use(gin.BasicAuth(gin.Credentials{
-	//	  "foo":  "bar",
-	//	  "manu": "123",
-	//}))
-	authorized := r.Group("/", gin.BasicAuth(gin.Accounts{
-		"foo":  "bar", // user:foo password:bar
-		"manu": "123", // user:manu password:123
-	}))
+		// Positions
+		v1.GET("/positions", controllers.GetPositions)
+		v1.POST("/positions", controllers.CreatePosition)
+		v1.POST("/jobs/:uuid/positions", controllers.AssignPositionsToJob)
 
-	/* example curl for /admin with basicauth header
-	   Zm9vOmJhcg== is base64("foo:bar")
-
-		curl -X POST \
-	  	http://localhost:8080/admin \
-	  	-H 'authorization: Basic Zm9vOmJhcg==' \
-	  	-H 'content-type: application/json' \
-	  	-d '{"value":"bar"}'
-	*/
-	authorized.POST("admin", func(c *gin.Context) {
-		user := c.MustGet(gin.AuthUserKey).(string)
-
-		// Parse JSON
-		var json struct {
-			Value string `json:"value" binding:"required"`
-		}
-
-		if c.Bind(&json) == nil {
-			db[user] = json.Value
-			c.JSON(http.StatusOK, gin.H{"status": "ok"})
-		}
-	})
+		// Roadmap Generation
+		v1.GET("/jobs/:uuid/roadmap", controllers.GenerateRoadmap)
+	}
 
 	return r
 }
 
+func initDatabase() {
+	var err error
+	controllers.DB, err = gorm.Open(sqlite.Open("test.db"), &gorm.Config{})
+	if err != nil {
+		log.Fatalf("Failed to connect to database: %v", err)
+	}
+
+	// Auto migrate the schema
+	controllers.DB.AutoMigrate(&models.Company{}, &models.JobPosting{}, &models.Position{})
+
+	// Seed the database with mock data
+	if err := scripts.SeedDatabase("mockdata.txt"); err != nil {
+		log.Printf("Warning: Failed to seed database: %v", err)
+	}
+}
+
 func main() {
+	// 環境変数から設定を読み込む
+	config.LoadConfig()
+
+	// Initialize database
+	initDatabase()
+
+	// Setup router
 	r := setupRouter()
-	// Listen and Server in 0.0.0.0:8080
-	r.Run(":8080")
+
+	// PORT環境変数を確認
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080" // デフォルトのポート
+	}
+
+	// Listen and serve
+	log.Printf("サーバーを起動しました: 0.0.0.0:%s", port)
+	if err := r.Run(":" + port); err != nil {
+		log.Fatalf("サーバーの起動に失敗しました: %v", err)
+	}
 }
