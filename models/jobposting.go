@@ -6,6 +6,7 @@ type JobPosting struct {
 	gorm.Model
 	ID             uint   `gorm:"primaryKey" json:"id"`
 	CompanyID      uint   `json:"company_id"`
+	Position       string `json:"position"`
 	Title          string `json:"title"`
 	Description    string `json:"description"`
 	Requirements   string `json:"requirements"`

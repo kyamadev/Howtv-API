@@ -1,0 +1,384 @@
+{
+  "companies": [
+    {
+      "name": "Alpha Inc.",
+      "address": "東京都港区1-2-3",
+      "industry": "IT",
+      "website": "https://alpha.com",
+      "job_postings": [
+        {
+          "title": "フルリモートエンジニア",
+          "description": "Alpha Inc. is looking for a talented engineer to join our fully remote team working on cutting-edge cloud solutions.",
+          "requirements": "Minimum 3 years of software development experience; proficiency in Go and Python.",
+          "salary_range": "700万〜1000万円",
+          "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-17T00:00:00Z",
+          "closing_date": "2025-04-17T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Beta Solutions",
+      "address": "東京都新宿区4-5-6",
+      "industry": "IT",
+      "website": "https://beta-solutions.com",
+      "job_postings": [
+        {
+          "title": "東京ポジションエンジニア",
+          "description": "Beta Solutions seeks experienced engineers for our Tokyo office to develop innovative software products.",
+          "requirements": "2+ years in software development; expertise in JavaScript and React.",
+          "salary_range": "650万〜950万円",
+          "location": "東京都新宿区",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-18T00:00:00Z",
+          "closing_date": "2025-04-18T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Gamma Technologies",
+      "address": "東京都渋谷区2-3-4",
+      "industry": "IT",
+      "website": "https://gamma-tech.com",
+      "job_postings": [
+        {
+          "title": "フルリモートエンジニア",
+          "description": "Join Gamma Technologies' remote team and work on scalable web services for international clients.",
+          "requirements": "3+ years of backend development experience; familiarity with cloud platforms.",
+          "salary_range": "720万〜980万円",
+          "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-19T00:00:00Z",
+          "closing_date": "2025-04-19T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Delta Ltd.",
+      "address": "東京都中央区3-4-5",
+      "industry": "IT",
+      "website": "https://delta-ltd.com",
+      "job_postings": [
+        {
+          "title": "東京ポジションエンジニア",
+          "description": "Delta Ltd. invites seasoned engineers to work in our modern Tokyo office, contributing to innovative product development.",
+          "requirements": "Proven experience in software design; strong skills in Java and Spring.",
+          "salary_range": "680万〜960万円",
+          "location": "東京都中央区",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-20T00:00:00Z",
+          "closing_date": "2025-04-20T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Epsilon LLC",
+      "address": "東京都港区1-2-3",
+      "industry": "IT",
+      "website": "https://epsilonllc.com",
+      "job_postings": [
+        {
+          "title": "フルリモートエンジニア",
+          "description": "Epsilon LLC is hiring for a fully remote position focused on developing state-of-the-art mobile applications.",
+          "requirements": "Experience with iOS or Android development; knowledge of UI/UX principles.",
+          "salary_range": "710万〜990万円",
+          "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-21T00:00:00Z",
+          "closing_date": "2025-04-21T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Zeta Corporation",
+      "address": "東京都渋谷区2-3-4",
+      "industry": "IT",
+      "website": "https://zetacorp.com",
+      "job_postings": [
+        {
+          "title": "東京ポジションエンジニア",
+          "description": "Zeta Corporation is expanding its Tokyo team to develop robust enterprise software solutions.",
+          "requirements": "2+ years of development experience; expertise in .NET and C#.",
+          "salary_range": "670万〜950万円",
+          "location": "東京都渋谷区",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-22T00:00:00Z",
+          "closing_date": "2025-04-22T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Eta Global",
+      "address": "東京都新宿区4-5-6",
+      "industry": "IT",
+      "website": "https://etaglobal.com",
+      "job_postings": [
+        {
+          "title": "フルリモートエンジニア",
+          "description": "Eta Global offers a fully remote role focused on developing next-generation fintech solutions.",
+          "requirements": "Strong background in software engineering; experience with microservices architecture.",
+          "salary_range": "730万〜1020万円",
+          "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-23T00:00:00Z",
+          "closing_date": "2025-04-23T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Theta International",
+      "address": "東京都中央区3-4-5",
+      "industry": "IT",
+      "website": "https://theta-intl.com",
+      "job_postings": [
+        {
+          "title": "東京ポジションエンジニア",
+          "description": "Theta International is looking for skilled engineers to join our Tokyo-based team developing innovative digital platforms.",
+          "requirements": "Experience with full-stack development; proficiency in JavaScript and Node.js.",
+          "salary_range": "690万〜970万円",
+          "location": "東京都中央区",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-24T00:00:00Z",
+          "closing_date": "2025-04-24T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Iota Systems",
+      "address": "東京都港区1-2-3",
+      "industry": "IT",
+      "website": "https://iotasys.com",
+      "job_postings": [
+        {
+          "title": "フルリモートエンジニア",
+          "description": "Iota Systems is recruiting for a fully remote engineering position focused on developing scalable cloud-native applications.",
+          "requirements": "5+ years of experience in system design and implementation; cloud certification is a plus.",
+          "salary_range": "750万〜1050万円",
+          "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-25T00:00:00Z",
+          "closing_date": "2025-04-25T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Kappa Digital",
+      "address": "東京都渋谷区2-3-4",
+      "industry": "IT",
+      "website": "https://kappadigital.com",
+      "job_postings": [
+        {
+          "title": "東京ポジションエンジニア",
+          "description": "Kappa Digital seeks innovative engineers for our Tokyo office to work on next-generation e-commerce platforms.",
+          "requirements": "Strong expertise in web development; experience with modern JavaScript frameworks.",
+          "salary_range": "680万〜970万円",
+          "location": "東京都渋谷区",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-26T00:00:00Z",
+          "closing_date": "2025-04-26T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Lambda Innovations",
+      "address": "東京都新宿区4-5-6",
+      "industry": "IT",
+      "website": "https://lambdainnovations.com",
+      "job_postings": [
+        {
+          "title": "フルリモートエンジニア",
+          "description": "Lambda Innovations is offering a fully remote role for an engineer passionate about developing innovative AI solutions.",
+          "requirements": "Expertise in machine learning frameworks; experience with Python and TensorFlow.",
+          "salary_range": "760万〜1060万円",
+          "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-27T00:00:00Z",
+          "closing_date": "2025-04-27T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Mu Networks",
+      "address": "東京都中央区3-4-5",
+      "industry": "IT",
+      "website": "https://munetworks.com",
+      "job_postings": [
+        {
+          "title": "東京ポジションエンジニア",
+          "description": "Mu Networks is expanding its Tokyo operations and seeks engineers to work on cutting-edge network infrastructure projects.",
+          "requirements": "Strong knowledge of networking protocols; experience in high-performance system development.",
+          "salary_range": "700万〜1000万円",
+          "location": "東京都中央区",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-28T00:00:00Z",
+          "closing_date": "2025-04-28T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Nu Ventures",
+      "address": "東京都港区1-2-3",
+      "industry": "IT",
+      "website": "https://nuventures.com",
+      "job_postings": [
+        {
+          "title": "フルリモートエンジニア",
+          "description": "Nu Ventures invites experienced engineers to join our fully remote team, driving innovation in the fintech sector.",
+          "requirements": "Experience in fintech solutions; proficiency in Java and Python.",
+          "salary_range": "730万〜1020万円",
+          "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-29T00:00:00Z",
+          "closing_date": "2025-04-29T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Xi Enterprises",
+      "address": "東京都渋谷区2-3-4",
+      "industry": "IT",
+      "website": "https://xi-enterprises.com",
+      "job_postings": [
+        {
+          "title": "東京ポジションエンジニア",
+          "description": "Xi Enterprises is hiring for a Tokyo-based role to develop innovative digital solutions for global markets.",
+          "requirements": "Proficiency in full-stack development; experience with modern frameworks is a plus.",
+          "salary_range": "710万〜990万円",
+          "location": "東京都渋谷区",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-30T00:00:00Z",
+          "closing_date": "2025-04-30T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Omicron Group",
+      "address": "東京都新宿区4-5-6",
+      "industry": "IT",
+      "website": "https://omicrongroup.com",
+      "job_postings": [
+        {
+          "title": "フルリモートエンジニア",
+          "description": "Omicron Group offers a fully remote position for an engineer with expertise in distributed systems and microservices.",
+          "requirements": "Experience with Docker, Kubernetes, and cloud-native applications.",
+          "salary_range": "740万〜1030万円",
+          "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-03-31T00:00:00Z",
+          "closing_date": "2025-04-31T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Pi Partners",
+      "address": "東京都中央区3-4-5",
+      "industry": "IT",
+      "website": "https://pupartners.com",
+      "job_postings": [
+        {
+          "title": "東京ポジションエンジニア",
+          "description": "Pi Partners is seeking innovative engineers to work at our Tokyo office on next-generation enterprise solutions.",
+          "requirements": "Experience in enterprise software development; familiarity with cloud services.",
+          "salary_range": "720万〜1000万円",
+          "location": "東京都中央区",
+          "employment_type": "正社員",
+          "posting_date": "2025-04-01T00:00:00Z",
+          "closing_date": "2025-05-01T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Rho Dynamics",
+      "address": "東京都港区1-2-3",
+      "industry": "IT",
+      "website": "https://rhodynamics.com",
+      "job_postings": [
+        {
+          "title": "フルリモートエンジニア",
+          "description": "Rho Dynamics is looking for a remote engineer to join our international team focused on advanced analytics platforms.",
+          "requirements": "5+ years in software development; experience with data analytics tools.",
+          "salary_range": "750万〜1050万円",
+          "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-04-02T00:00:00Z",
+          "closing_date": "2025-05-02T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Sigma Analytics",
+      "address": "東京都渋谷区2-3-4",
+      "industry": "IT",
+      "website": "https://sigmaanalytics.com",
+      "job_postings": [
+        {
+          "title": "東京ポジションエンジニア",
+          "description": "Sigma Analytics seeks engineers for our Tokyo office to develop data-driven insights for global enterprises.",
+          "requirements": "Strong analytical skills; experience with SQL, Python, and data visualization tools.",
+          "salary_range": "730万〜1010万円",
+          "location": "東京都渋谷区",
+          "employment_type": "正社員",
+          "posting_date": "2025-04-03T00:00:00Z",
+          "closing_date": "2025-05-03T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Tau Industries",
+      "address": "東京都新宿区4-5-6",
+      "industry": "IT",
+      "website": "https://tauindustries.com",
+      "job_postings": [
+        {
+          "title": "フルリモートエンジニア",
+          "description": "Tau Industries offers a fully remote engineering role to innovate in IoT and smart devices.",
+          "requirements": "Experience in IoT development; strong background in embedded systems.",
+          "salary_range": "740万〜1020万円",
+          "location": "フルリモート",
+          "employment_type": "正社員",
+          "posting_date": "2025-04-04T00:00:00Z",
+          "closing_date": "2025-05-04T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    },
+    {
+      "name": "Upsilon Technologies",
+      "address": "東京都中央区3-4-5",
+      "industry": "IT",
+      "website": "https://upsilontech.com",
+      "job_postings": [
+        {
+          "title": "東京ポジションエンジニア",
+          "description": "Upsilon Technologies is recruiting for a Tokyo-based role focused on developing innovative software solutions for global markets.",
+          "requirements": "Experience in software architecture; proficiency in modern web technologies.",
+          "salary_range": "710万〜990万円",
+          "location": "東京都中央区",
+          "employment_type": "正社員",
+          "posting_date": "2025-04-05T00:00:00Z",
+          "closing_date": "2025-05-05T00:00:00Z",
+          "status": "公開中"
+        }
+      ]
+    }
+  ]
+}
