@@ -13,6 +13,7 @@ import (
 
 func GenerateRoadmap(c *gin.Context) {
 	id := c.Param("uuid")
+	questionType := c.DefaultQuery("question_type", "general") // 新規追加：質問タイプのクエリパラメータ
 
 	jobUUID, err := uuid.Parse(id)
 	if err != nil {
@@ -34,15 +35,16 @@ func GenerateRoadmap(c *gin.Context) {
 
 	openaiService := services.NewOpenAIService(apiKey)
 
-	roadmap, err := openaiService.GenerateCareerRoadmap(&job)
+	roadmap, err := openaiService.GenerateCareerRoadmap(&job, questionType)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
 	}
 
 	c.JSON(http.StatusOK, gin.H{
-		"job_title": job.Title,
-		"location":  job.Location,
-		"roadmap":   roadmap.Roadmap,
+		"job_title":     job.Title,
+		"location":      job.Location,
+		"roadmap":       roadmap.Roadmap,
+		"question_type": questionType,
 	})
 }
