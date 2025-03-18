@@ -1,422 +1,422 @@
 {
   "companies": [
     {
-      "name": "TechFront株式会社",
-      "address": "東京都渋谷区神南1-2-3",
-      "industry": "IT",
-      "website": "https://techfront.co.jp",
+      "name": "GlobalTech Solutions",
+      "address": "Midtown Tower, Tokyo",
+      "industry": "IT Consulting",
+      "website": "https://www.globaltechsolutions.example",
       "job_postings": [
         {
-          "title": "ReactとTypeScriptを使用したフロントエンド開発",
-          "description": "当社では、企業向けSaaSプロダクトのフロントエンド開発を担当するエンジニアを募集しています。UIコンポーネントの設計・実装からパフォーマンス最適化まで、モダンなフロントエンド開発スキルを活かし、ユーザー体験の向上に貢献していただきます。リモートワーク可能な環境で、フレキシブルな働き方をサポートします。",
-          "requirements": "3年以上のフロントエンド開発経験、ReactとTypeScriptの実務経験、レスポンシブデザインの理解。Nextjs経験者歓迎。",
-          "salary_range": "600万〜900万円",
-          "location": "フルリモート",
-          "employment_type": "正社員",
+          "title": "Junior Cloud Engineer",
+          "description": "Join our growing Cloud Infrastructure team to help design and implement cloud solutions for our international clients. You'll work with AWS, Azure, and GCP to support our clients' digital transformation initiatives. This is an excellent opportunity to develop your cloud engineering skills in a supportive international environment. You'll receive mentoring from experienced engineers and have opportunities to grow your technical and professional skills.",
+          "requirements": "1-3 years of experience with cloud platforms (AWS/Azure/GCP), basic knowledge of infrastructure as code, and working-level English communication skills. Cloud certification is a plus but not required.",
+          "salary_range": "¥5M - ¥8M annually",
+          "location": "Tokyo (Hybrid)",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-10T00:00:00Z",
-          "closing_date": "2025-04-10T00:00:00Z",
-          "status": "公開中",
-          "positions": ["フロントエンドエンジニア"]
+          "closing_date": "2025-04-15T00:00:00Z",
+          "status": "Active",
+          "positions": ["Cloud Engineer", "DevOps Engineer"]
         }
       ]
     },
     {
-      "name": "BackendTech株式会社",
-      "address": "東京都千代田区神田3-4-5",
-      "industry": "IT",
-      "website": "https://backendtech.jp",
+      "name": "Innovatech Japan",
+      "address": "Shinagawa Grand Central Tower, Tokyo",
+      "industry": "Technology",
+      "website": "https://www.innovatech.example",
       "job_postings": [
         {
-          "title": "Goを使用したマイクロサービス開発エンジニア",
-          "description": "当社のエンジニアチームでは、Goを使用した高パフォーマンスなバックエンドマイクロサービスの設計・開発を担当していただきます。大規模トラフィックを処理するシステムの開発に携わり、技術的な課題を解決していく役割です。コンテナ技術やクラウドインフラの知識を活かせる環境です。",
-          "requirements": "3年以上のGoでの開発経験、マイクロサービスアーキテクチャの理解、RDBMSとNoSQLの知識。gRPC経験者優遇。",
-          "salary_range": "700万〜1000万円",
-          "location": "東京都千代田区",
-          "employment_type": "正社員",
+          "title": "Associate Software Developer - Cloud Services",
+          "description": "As part of our Cloud Services development team, you'll help build next-generation cloud applications and services. You'll work in an agile, international team environment where you can grow your technical skills while contributing to real-world projects. This role provides a supportive environment for developing your programming abilities while working alongside experienced developers from our offices around the world.",
+          "requirements": "1-2 years in software development, knowledge of C#/.NET or Java, basic understanding of cloud services, and business-level English. CS degree or equivalent experience preferred.",
+          "salary_range": "¥4.5M - ¥7.5M annually",
+          "location": "Tokyo",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-12T00:00:00Z",
-          "closing_date": "2025-04-12T00:00:00Z",
-          "status": "公開中",
-          "positions": ["バックエンドエンジニア"]
+          "closing_date": "2025-04-20T00:00:00Z",
+          "status": "Active",
+          "positions": ["Backend Engineer", "Cloud Engineer"]
         }
       ]
     },
     {
-      "name": "フルスタックソリューションズ株式会社",
-      "address": "東京都新宿区西新宿2-3-1",
-      "industry": "IT",
-      "website": "https://fullstack-solutions.co.jp",
+      "name": "CloudMatrix Systems",
+      "address": "Meguro Tokyu Building, Tokyo",
+      "industry": "Cloud Computing",
+      "website": "https://www.cloudmatrix.example",
       "job_postings": [
         {
-          "title": "フルスタックエンジニア（React/Node.js）",
-          "description": "フロントエンドからバックエンドまで一貫して開発できるフルスタックエンジニアを募集しています。主にReactとNode.jsを使用したWebアプリケーション開発をお任せします。顧客との要件定義から設計、開発、テストまでエンドツーエンドで携わることができます。リモートワーク中心の柔軟な勤務形態です。",
-          "requirements": "5年以上のWeb開発経験、React、Node.js、Express.jsの実務経験、RDBMSの知識。GraphQL経験者歓迎。",
-          "salary_range": "650万〜950万円",
-          "location": "フルリモート（月1回の東京オフィス出社あり）",
-          "employment_type": "正社員",
+          "title": "Junior Solutions Engineer",
+          "description": "Join CloudMatrix as a Junior Solutions Engineer to help our clients architect and deploy applications on cloud platforms. You'll assist experienced engineers in designing cloud solutions and gain hands-on experience with cutting-edge technologies. This role offers excellent growth opportunities in a dynamic international environment, with structured training and mentorship to accelerate your professional development.",
+          "requirements": "1-3 years of IT experience, basic knowledge of cloud services (AWS, Azure, or GCP), customer-facing skills, and conversational English. Technical degree or relevant certifications are a plus.",
+          "salary_range": "¥5M - ¥7M annually",
+          "location": "Tokyo (Hybrid)",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-15T00:00:00Z",
           "closing_date": "2025-04-15T00:00:00Z",
-          "status": "公開中",
-          "positions": ["フロントエンドエンジニア", "バックエンドエンジニア", "フルスタックエンジニア"]
+          "status": "Active",
+          "positions": ["Cloud Engineer", "Solutions Architect"]
         }
       ]
     },
     {
-      "name": "モバイルアプリ開発株式会社",
-      "address": "東京都渋谷区代々木1-5-6",
-      "industry": "IT",
-      "website": "https://mobile-dev.co.jp",
+      "name": "Quantum Search Inc.",
+      "address": "Shibuya Stream, Tokyo",
+      "industry": "Technology",
+      "website": "https://www.quantumsearch.example",
       "job_postings": [
         {
-          "title": "Flutterモバイルアプリエンジニア",
-          "description": "Flutterを使用したクロスプラットフォームモバイルアプリケーションの開発を担当していただきます。ユーザー体験の向上に重点を置き、デザイナーやプロダクトマネージャーと協力してアプリ開発を推進していきます。主要なプロジェクトはフィンテック系アプリと健康管理アプリです。",
-          "requirements": "2年以上のFlutter開発経験、Dart言語の習熟度、iOSおよびAndroidのネイティブ開発の理解。Firebase経験者優遇。",
-          "salary_range": "600万〜850万円",
-          "location": "東京都渋谷区",
-          "employment_type": "正社員",
+          "title": "Associate Software Engineer, Infrastructure",
+          "description": "Join our infrastructure team to help build the systems that power our search and analytics services. You'll work on distributed computing, storage, and networking solutions, with guidance from senior engineers. Our Tokyo office offers an international working environment where you can grow your technical skills while collaborating with our engineering teams around the world. This is an ideal position for engineers looking to develop expertise in large-scale systems.",
+          "requirements": "1-3 years of software development experience, knowledge of a systems programming language (Go, C++, Java), basic understanding of distributed systems, and intermediate English communication. Computer Science degree preferred.",
+          "salary_range": "¥5.5M - ¥9M annually",
+          "location": "Tokyo",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-17T00:00:00Z",
           "closing_date": "2025-04-17T00:00:00Z",
-          "status": "公開中",
-          "positions": ["モバイルエンジニア"]
+          "status": "Active",
+          "positions": ["Backend Engineer", "Infrastructure Engineer"]
         }
       ]
     },
     {
-      "name": "クラウドインフラ株式会社",
-      "address": "東京都品川区大崎2-1-1",
-      "industry": "IT",
-      "website": "https://cloud-infra.co.jp",
+      "name": "RelationForce",
+      "address": "JP Tower, Tokyo",
+      "industry": "CRM",
+      "website": "https://www.relationforce.example",
       "job_postings": [
         {
-          "title": "クラウドインフラエンジニア（AWS）",
-          "description": "AWSを中心としたクラウドインフラの設計、構築、運用を担当していただきます。Infrastructure as Codeを推進し、自動化による効率的なインフラ構築を実現します。コストの最適化とセキュリティ強化を両立させるクラウド環境の提案も重要な業務の一つです。",
-          "requirements": "3年以上のAWS環境での実務経験、Terraform等のIaCツールの経験、Linuxサーバー管理スキル。AWS認定資格保持者歓迎。",
-          "salary_range": "700万〜950万円",
-          "location": "フルリモート",
-          "employment_type": "正社員",
+          "title": "Mid-level Software Engineer, Core Platform",
+          "description": "Join our Core Platform team to help build the foundation of our CRM platform. You'll work on services that power applications for our global customer base, with opportunities to learn from experienced engineers. This role offers you the chance to develop your skills in a collaborative, international environment. We provide structured learning paths and mentorship to help you grow into a senior role over time.",
+          "requirements": "2-4 years of backend development experience, basic Java knowledge, understanding of web services, and conversational English skills. Experience with databases and RESTful APIs is valuable.",
+          "salary_range": "¥6M - ¥10M annually",
+          "location": "Tokyo (Hybrid)",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-18T00:00:00Z",
           "closing_date": "2025-04-18T00:00:00Z",
-          "status": "公開中",
-          "positions": ["インフラエンジニア", "DevOpsエンジニア"]
+          "status": "Active",
+          "positions": ["Backend Engineer", "Fullstack Engineer"]
         }
       ]
     },
     {
-      "name": "データアナリティクス株式会社",
-      "address": "東京都港区六本木1-3-4",
-      "industry": "IT",
-      "website": "https://data-analytics.co.jp",
+      "name": "PixelWave Design",
+      "address": "Osaki Bright Tower, Tokyo",
+      "industry": "Software",
+      "website": "https://www.pixelwave.example",
       "job_postings": [
         {
-          "title": "データエンジニア（BigQuery/Spark）",
-          "description": "大規模データ処理基盤の設計、開発、運用を担当していただきます。Google Cloud PlatformとBigQueryを主に使用し、データレイクからデータウェアハウスまでのデータパイプラインを構築します。分析チームと連携し、効率的なデータ活用基盤を提供するポジションです。",
-          "requirements": "3年以上のデータエンジニアリング経験、Google Cloud Platform（特にBigQuery）の知識、SparkやAirflowの実務経験。データモデリングの知識があると望ましい。",
-          "salary_range": "750万〜1000万円",
-          "location": "東京都港区",
-          "employment_type": "正社員",
+          "title": "Junior Frontend Developer",
+          "description": "Join PixelWave's Web Application team to build engaging and intuitive user interfaces. You'll create responsive web applications using modern frontend frameworks, with guidance from experienced developers. You'll collaborate with our international product team to deliver exceptional user experiences. This position provides a supportive environment to develop your frontend skills while working on real-world projects with global reach.",
+          "requirements": "1-2 years of frontend development experience, familiarity with React or similar frameworks, basic HTML/CSS/JavaScript skills, and conversational English. Design sensibility and attention to detail is important.",
+          "salary_range": "¥4.5M - ¥7M annually",
+          "location": "Tokyo",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-19T00:00:00Z",
           "closing_date": "2025-04-19T00:00:00Z",
-          "status": "公開中",
-          "positions": ["データエンジニア"]
+          "status": "Active",
+          "positions": ["Frontend Engineer"]
         }
       ]
     },
     {
-      "name": "AI研究開発株式会社",
-      "address": "東京都文京区本郷3-2-1",
-      "industry": "AI/ML",
-      "website": "https://ai-research-dev.co.jp",
+      "name": "BlueCore Technologies",
+      "address": "Hakozaki, Tokyo",
+      "industry": "Technology",
+      "website": "https://www.bluecore.example",
       "job_postings": [
         {
-          "title": "機械学習エンジニア（自然言語処理）",
-          "description": "自然言語処理技術を活用した製品開発を行うAIエンジニアを募集しています。言語モデルの構築、チューニング、デプロイメントを担当し、テキスト分析や会話システムの開発に取り組んでいただきます。研究開発から実装まで一貫して関わることができる環境です。",
-          "requirements": "3年以上のPythonによる開発経験、機械学習フレームワーク（PyTorch/TensorFlow）の知識、NLPプロジェクトの実務経験。深層学習の理論的な理解があると望ましい。",
-          "salary_range": "800万〜1100万円",
-          "location": "フルリモート",
-          "employment_type": "正社員",
+          "title": "Associate Data Scientist",
+          "description": "Join BlueCore's AI team to help develop machine learning models and AI solutions. You'll work with experienced data scientists to analyze data, build models, and create intelligent applications for our enterprise clients. This role offers an excellent learning environment to develop your machine learning skills and gain practical industry experience. You'll have access to ongoing training and mentorship opportunities to accelerate your growth in the field.",
+          "requirements": "Bachelor's or Master's in Computer Science, Statistics, or related field, 0-2 years of experience with ML/AI, familiarity with Python and basic ML frameworks, and business-level English. Statistics and data analysis skills are essential.",
+          "salary_range": "¥5M - ¥8M annually",
+          "location": "Tokyo",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-20T00:00:00Z",
           "closing_date": "2025-04-20T00:00:00Z",
-          "status": "公開中",
-          "positions": ["AI/ML エンジニア", "データエンジニア"]
+          "status": "Active",
+          "positions": ["AI/ML Engineer", "Data Engineer"]
         }
       ]
     },
     {
-      "name": "DevOpsソリューションズ株式会社",
-      "address": "東京都中央区日本橋2-5-1",
-      "industry": "IT",
-      "website": "https://devops-solutions.co.jp",
+      "name": "SocialSphere",
+      "address": "Roppongi Hills Mori Tower, Tokyo",
+      "industry": "Social Media",
+      "website": "https://www.socialsphere.example",
       "job_postings": [
         {
-          "title": "DevOpsエンジニア（Kubernetes）",
-          "description": "CI/CDパイプラインの構築・改善、Kubernetesを使用したコンテナオーケストレーション環境の設計・運用を担当していただきます。開発チームと運用チームの架け橋となり、安定したリリースサイクルの確立と運用自動化を推進するポジションです。",
-          "requirements": "4年以上のインフラエンジニアとしての経験、Kubernetes、Docker、CI/CDツール（Jenkins/GitLab CI等）の実務経験、Infrastructure as Codeの実践。",
-          "salary_range": "750万〜1050万円",
-          "location": "東京都中央区",
-          "employment_type": "正社員",
+          "title": "Junior Software Engineer",
+          "description": "Join our engineering team to help build features for our social media platform. You'll work in a fast-paced, international environment developing capabilities that connect people and communities. This role provides excellent learning opportunities as you'll work alongside experienced engineers who can help you grow your skills. You'll contribute to real features while receiving guidance and support to advance your career.",
+          "requirements": "0-2 years of software engineering experience, basic programming skills in Python/JavaScript/React, understanding of web technologies, and intermediate English skills. Computer Science degree or bootcamp completion preferred.",
+          "salary_range": "¥4.5M - ¥7M annually",
+          "location": "Tokyo",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-21T00:00:00Z",
           "closing_date": "2025-04-21T00:00:00Z",
-          "status": "公開中",
-          "positions": ["DevOpsエンジニア", "インフラエンジニア"]
+          "status": "Active",
+          "positions": ["Fullstack Engineer", "Frontend Engineer"]
         }
       ]
     },
     {
-      "name": "サイバーセキュリティ株式会社",
-      "address": "東京都千代田区霞が関1-4-1",
-      "industry": "IT/セキュリティ",
-      "website": "https://cyber-security.co.jp",
+      "name": "MeloStream",
+      "address": "Ebisu, Tokyo",
+      "industry": "Music Streaming",
+      "website": "https://www.melostream.example",
       "job_postings": [
         {
-          "title": "セキュリティエンジニア（クラウドセキュリティ）",
-          "description": "クラウド環境におけるセキュリティ対策の設計、導入、運用を担当していただきます。セキュリティ評価、脆弱性診断、インシデント対応など、幅広いセキュリティ業務に携わります。また、社内のセキュリティポリシーの策定や改訂にも参画していただきます。",
-          "requirements": "3年以上のITセキュリティ分野での経験、AWS/GCP/Azureいずれかのクラウドセキュリティの知識、脆弱性診断や侵入テストの経験。セキュリティ関連資格（CISSP等）保持者歓迎。",
-          "salary_range": "800万〜1100万円",
-          "location": "フルリモート",
-          "employment_type": "正社員",
+          "title": "Associate Backend Engineer",
+          "description": "Join MeloStream's backend team to help build the services that power our music streaming platform. You'll work on APIs, data pipelines, and services that deliver content to millions of users. Our Tokyo engineering hub offers a collaborative international environment where you can develop your skills while working on meaningful projects. You'll receive guidance from experienced engineers and have opportunities to grow your technical abilities.",
+          "requirements": "1-3 years of backend development experience, basic knowledge of JVM languages (Java/Kotlin), familiarity with databases, understanding of RESTful services, and conversational English skills.",
+          "salary_range": "¥5M - ¥8.5M annually",
+          "location": "Tokyo",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-22T00:00:00Z",
           "closing_date": "2025-04-22T00:00:00Z",
-          "status": "公開中",
-          "positions": ["セキュリティエンジニア"]
+          "status": "Active",
+          "positions": ["Backend Engineer", "Data Engineer"]
         }
       ]
     },
     {
-      "name": "品質保証テック株式会社",
-      "address": "東京都新宿区西新宿6-8-1",
-      "industry": "IT",
-      "website": "https://qa-tech.co.jp",
+      "name": "EnterpriseNow Software",
+      "address": "Grand Tokyo South Tower, Tokyo",
+      "industry": "Enterprise Software",
+      "website": "https://www.enterprisenow.example",
       "job_postings": [
         {
-          "title": "QAエンジニア（自動テスト）",
-          "description": "テスト自動化フレームワークの設計・開発、CI/CDパイプラインへのテスト自動化の組み込みを担当していただきます。単体テストから統合テスト、パフォーマンステストまで幅広いテスト戦略を策定し、品質向上に貢献するポジションです。",
-          "requirements": "3年以上のQAエンジニアとしての経験、テスト自動化ツール（Selenium/Cypress等）の実務経験、JavaScriptまたはPythonのプログラミングスキル。BDDフレームワーク経験者優遇。",
-          "salary_range": "600万〜850万円",
-          "location": "東京都新宿区",
-          "employment_type": "正社員",
+          "title": "Mid-level Cloud Developer",
+          "description": "Join our Cloud Solutions team to design and implement enterprise-grade cloud applications. You'll work on scalable, reliable architectures that power business applications for our global customers. This role provides opportunities to expand your technical expertise in cloud technologies while working in an international environment. You'll collaborate with experienced engineers and have a clear growth path to advance your career.",
+          "requirements": "2-4 years of development experience, familiarity with cloud infrastructure (AWS/Azure/GCP), basic knowledge of containerization, and business-level English. Experience with enterprise applications is a plus.",
+          "salary_range": "¥6.5M - ¥10M annually",
+          "location": "Tokyo (Hybrid)",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-23T00:00:00Z",
           "closing_date": "2025-04-23T00:00:00Z",
-          "status": "公開中",
-          "positions": ["QAエンジニア"]
+          "status": "Active",
+          "positions": ["Cloud Engineer", "Backend Engineer"]
         }
       ]
     },
     {
-      "name": "イノベーションテクノロジー株式会社",
-      "address": "東京都目黒区中目黒3-1-2",
-      "industry": "IT",
-      "website": "https://innovation-tech.co.jp",
+      "name": "MobileVision",
+      "address": "Roppongi Hills, Tokyo",
+      "industry": "Technology",
+      "website": "https://www.mobilevision.example",
       "job_postings": [
         {
-          "title": "IoTエンジニア（組込みシステム）",
-          "description": "IoTデバイスの組込みソフトウェア開発とクラウドサービスとの連携システムの構築を担当していただきます。ハードウェアからクラウドまでを繋ぐエンドツーエンドのIoTソリューション開発に携わるポジションです。",
-          "requirements": "3年以上の組込みソフトウェア開発経験、C/C++によるプログラミングスキル、マイコンやLinuxボード上での開発経験。IoTプロトコル（MQTT等）の知識があると望ましい。",
-          "salary_range": "650万〜900万円",
-          "location": "東京都目黒区",
-          "employment_type": "正社員",
+          "title": "Junior iOS Developer",
+          "description": "Join MobileVision's development team to create engaging mobile experiences for our users in Japan and globally. You'll work on iOS applications, learning from experienced developers while building your mobile development skills. This role offers a supportive environment to grow your career in mobile engineering. You'll receive mentorship and regular feedback to help you advance your technical capabilities and professional development.",
+          "requirements": "0-2 years of iOS development experience, basic Swift skills, familiarity with UIKit or SwiftUI, understanding of mobile app architecture, and conversational English skills. CS degree or bootcamp completion preferred.",
+          "salary_range": "¥4.5M - ¥7M annually",
+          "location": "Tokyo",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-24T00:00:00Z",
           "closing_date": "2025-04-24T00:00:00Z",
-          "status": "公開中",
-          "positions": ["バックエンドエンジニア"]
+          "status": "Active",
+          "positions": ["Mobile Engineer", "Frontend Engineer"]
         }
       ]
     },
     {
-      "name": "クリエイティブウェブ株式会社",
-      "address": "東京都渋谷区恵比寿1-2-3",
-      "industry": "Web制作",
-      "website": "https://creative-web.co.jp",
+      "name": "DataSphere Solutions",
+      "address": "Oracle Aoyama Center, Tokyo",
+      "industry": "Enterprise Software",
+      "website": "https://www.datasphere.example",
       "job_postings": [
         {
-          "title": "Webデザイナー兼フロントエンドエンジニア",
-          "description": "デザインからコーディングまでを一貫して担当できるWebデザイナー兼フロントエンドエンジニアを募集しています。コーポレートサイトやブランドサイトなどの制作プロジェクトに携わり、優れたユーザー体験を実現するデザインと実装を手がけていただきます。",
-          "requirements": "3年以上のWebデザイン経験、HTML/CSS/JavaScriptのコーディングスキル、Adobe XD/Figmaなどの使用経験。アニメーション実装の経験があると望ましい。",
-          "salary_range": "550万〜800万円",
-          "location": "フルリモート",
-          "employment_type": "正社員",
+          "title": "Mid-level Database Engineer",
+          "description": "Join our Database Platform team to help build and operate our next-generation database services. You'll work on high-performance, reliable database systems with guidance from senior engineers. This role offers the opportunity to develop specialized database expertise while working in an international team environment. You'll gain experience with large-scale database operations and have a clear path for career advancement.",
+          "requirements": "2-4 years of software or database experience, basic SQL knowledge, familiarity with at least one database system, understanding of data structures, and business-level English communication.",
+          "salary_range": "¥6M - ¥9M annually",
+          "location": "Tokyo",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-25T00:00:00Z",
           "closing_date": "2025-04-25T00:00:00Z",
-          "status": "公開中",
-          "positions": ["フロントエンドエンジニア"]
+          "status": "Active",
+          "positions": ["Backend Engineer", "Database Engineer"]
         }
       ]
     },
     {
-      "name": "CRMシステムズ株式会社",
-      "address": "東京都豊島区池袋2-1-8",
-      "industry": "ITサービス",
-      "website": "https://crm-systems.co.jp",
+      "name": "ConnectAPI",
+      "address": "Shibuya Scramble Square, Tokyo",
+      "industry": "Communications API",
+      "website": "https://www.connectapi.example",
       "job_postings": [
         {
-          "title": "Salesforceエンジニア",
-          "description": "Salesforceプラットフォームを活用したCRMシステムの設計、開発、導入を担当していただきます。顧客の業務改善やデジタルトランスフォーメーションを支援し、カスタマイズやインテグレーションを通じて最適なソリューションを提供するポジションです。",
-          "requirements": "2年以上のSalesforce開発経験、Apexコーディングのスキル、Lightning Componentの開発経験。Salesforce認定資格保持者優遇。",
-          "salary_range": "600万〜900万円",
-          "location": "東京都豊島区",
-          "employment_type": "正社員",
+          "title": "Junior Software Engineer, API Services",
+          "description": "Join ConnectAPI's engineering team to help build reliable communication APIs used by developers worldwide. You'll work on systems that enable messaging and communication services, with guidance from experienced engineers. This role offers opportunities to learn about high-scale systems while contributing to meaningful projects. You'll develop your technical skills in a supportive environment with clear progression paths.",
+          "requirements": "0-2 years of backend development experience, basic understanding of APIs and web services, familiarity with a programming language (Python, Java, Go, etc.), and intermediate English communication skills.",
+          "salary_range": "¥4.5M - ¥7M annually",
+          "location": "Tokyo (Hybrid)",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-26T00:00:00Z",
           "closing_date": "2025-04-26T00:00:00Z",
-          "status": "公開中",
-          "positions": ["バックエンドエンジニア", "フルスタックエンジニア"]
+          "status": "Active",
+          "positions": ["Backend Engineer"]
         }
       ]
     },
     {
-      "name": "アジャイル開発株式会社",
-      "address": "東京都世田谷区三軒茶屋1-5-2",
-      "industry": "IT",
-      "website": "https://agile-dev.co.jp",
+      "name": "DevPortal",
+      "address": "Sanno Park Tower, Tokyo",
+      "industry": "Developer Tools",
+      "website": "https://www.devportal.example",
       "job_postings": [
         {
-          "title": "スクラムマスター兼エンジニア",
-          "description": "スクラムマスターとしてアジャイル開発のプラクティスを導入・定着させながら、開発チームの一員としても活躍していただきます。プロジェクト管理とエンジニアリングの両面からチームの生産性と製品品質の向上に貢献するポジションです。",
-          "requirements": "3年以上のソフトウェア開発経験、スクラムマスターとしての実績、アジャイル開発手法への深い理解。認定スクラムマスター（CSM）資格保持者歓迎。",
-          "salary_range": "650万〜950万円",
-          "location": "フルリモート",
-          "employment_type": "正社員",
+          "title": "Associate Software Engineer, DevOps",
+          "description": "Join DevPortal's infrastructure team to help build and scale our developer tools platform. You'll work on CI/CD pipelines, automation, and infrastructure used by developers worldwide. This role provides excellent opportunities to learn DevOps practices from experienced engineers in an international environment. You'll develop skills in cloud infrastructure, containerization, and automation while working on projects with real-world impact.",
+          "requirements": "1-3 years of software or IT experience, basic understanding of Linux systems, familiarity with cloud platforms, knowledge of scripting languages, and business-level written English communication.",
+          "salary_range": "¥5M - ¥8M annually",
+          "location": "Tokyo (Remote)",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-27T00:00:00Z",
           "closing_date": "2025-04-27T00:00:00Z",
-          "status": "公開中",
-          "positions": ["フルスタックエンジニア"]
+          "status": "Active",
+          "positions": ["DevOps Engineer", "Infrastructure Engineer"]
         }
       ]
     },
     {
-      "name": "グローバルIT株式会社",
-      "address": "東京都千代田区丸の内1-2-1",
-      "industry": "IT",
-      "website": "https://global-it.co.jp",
+      "name": "InfraCode",
+      "address": "WeWork Marunouchi, Tokyo",
+      "industry": "Infrastructure Software",
+      "website": "https://www.infracode.example",
       "job_postings": [
         {
-          "title": "バイリンガルフルスタックエンジニア",
-          "description": "グローバルに展開するWebサービスの開発を担当するバイリンガルエンジニアを募集しています。フロントエンドからバックエンドまで幅広い技術スタックを活用し、国際チームと協力しながらプロダクト開発を進めていただきます。英語力を活かしたい方に最適なポジションです。",
-          "requirements": "5年以上のWeb開発経験、JavaScript/TypeScriptとバックエンド言語（Ruby/Python/Java等）の実務経験、ビジネスレベルの英語力（目安：TOEIC 800点以上）。",
-          "salary_range": "800万〜1200万円",
-          "location": "東京都千代田区（リモート勤務3日/週可）",
-          "employment_type": "正社員",
+          "title": "Junior Software Engineer, Infrastructure",
+          "description": "Join InfraCode to help build the future of infrastructure as code. You'll work on tools that help companies provision and manage cloud infrastructure, learning from experienced engineers. This role offers the opportunity to develop specialized skills in a rapidly growing field while working in a globally distributed team. You'll receive mentorship and have a clear path for career growth as you develop your expertise.",
+          "requirements": "0-2 years of software development experience, basic Go or another programming language knowledge, familiarity with cloud providers (AWS/Azure/GCP), and intermediate English communication skills.",
+          "salary_range": "¥4.5M - ¥7.5M annually",
+          "location": "Tokyo (Remote)",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-28T00:00:00Z",
           "closing_date": "2025-04-28T00:00:00Z",
-          "status": "公開中",
-          "positions": ["フロントエンドエンジニア", "バックエンドエンジニア", "フルスタックエンジニア"]
+          "status": "Active",
+          "positions": ["Backend Engineer", "Infrastructure Engineer"]
         }
       ]
     },
     {
-      "name": "ブロックチェーン技術株式会社",
-      "address": "東京都港区赤坂3-3-3",
-      "industry": "ブロックチェーン/IT",
-      "website": "https://blockchain-tech.co.jp",
+      "name": "FinPay Technologies",
+      "address": "Tokyo Square Garden, Tokyo",
+      "industry": "Financial Technology",
+      "website": "https://www.finpay.example",
       "job_postings": [
         {
-          "title": "ブロックチェーンエンジニア",
-          "description": "分散型アプリケーション（DApps）やスマートコントラクトの設計・開発を担当していただきます。イーサリアムやポリゴンなどの主要なブロックチェーンプラットフォーム上での開発経験を活かし、次世代のWeb3サービス構築に携わるポジションです。",
-          "requirements": "2年以上のブロックチェーン開発経験、Solidity言語の習熟度、Web3.jsやethers.jsの使用経験。暗号通貨やNFTプロジェクトの開発経験があると望ましい。",
-          "salary_range": "700万〜1100万円",
-          "location": "フルリモート",
-          "employment_type": "正社員",
+          "title": "Mid-level Software Engineer, Payment Systems",
+          "description": "Join FinPay's engineering team to build the infrastructure that processes payments for businesses of all sizes. You'll work on reliable systems that handle financial transactions, with guidance from senior engineers. This role offers the opportunity to develop specialized knowledge in payment systems while working in an international environment. You'll gain valuable experience in financial technology and have a clear path for career advancement.",
+          "requirements": "2-4 years of software engineering experience, familiarity with backend development, basic understanding of payment systems or financial services, and business-level English communication skills.",
+          "salary_range": "¥6M - ¥10M annually",
+          "location": "Tokyo",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-29T00:00:00Z",
           "closing_date": "2025-04-29T00:00:00Z",
-          "status": "公開中",
-          "positions": ["バックエンドエンジニア"]
+          "status": "Active",
+          "positions": ["Backend Engineer", "Fullstack Engineer"]
         }
       ]
     },
     {
-      "name": "ゲーム開発スタジオ株式会社",
-      "address": "東京都杉並区高円寺4-5-6",
-      "industry": "ゲーム開発",
-      "website": "https://game-dev-studio.co.jp",
+      "name": "RetailTech Japan",
+      "address": "Ark Hills South Tower, Tokyo",
+      "industry": "Financial Technology",
+      "website": "https://www.retailtech.example",
       "job_postings": [
         {
-          "title": "Unityエンジニア",
-          "description": "モバイルゲームの開発をメインとするUnityエンジニアを募集しています。ゲームロジックの実装からパフォーマンス最適化、プラグイン開発まで幅広い業務を担当していただきます。クリエイティブチームと連携し、魅力的なゲーム体験の創出に貢献するポジションです。",
-          "requirements": "3年以上のUnity開発経験、C#プログラミングスキル、モバイルゲーム開発の知識。3Dグラフィックスの基礎知識があると望ましい。",
-          "salary_range": "600万〜900万円",
-          "location": "東京都杉並区",
-          "employment_type": "正社員",
+          "title": "Junior Android Developer",
+          "description": "Join our Mobile Applications team to build retail and payment applications for businesses. You'll work on our Android applications, developing features that help merchants manage their businesses more effectively. This role offers a supportive environment to grow your mobile development skills while working with an international product team. You'll receive mentorship from experienced developers and have a clear career progression path.",
+          "requirements": "0-2 years of Android development experience, basic Kotlin or Java skills, understanding of Android UI components, familiarity with mobile app architecture, and conversational English skills.",
+          "salary_range": "¥4.5M - ¥7M annually",
+          "location": "Tokyo (Hybrid)",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-30T00:00:00Z",
           "closing_date": "2025-04-30T00:00:00Z",
-          "status": "公開中",
-          "positions": ["モバイルエンジニア"]
+          "status": "Active",
+          "positions": ["Mobile Engineer", "Frontend Engineer"]
         }
       ]
     },
     {
-      "name": "EC技術株式会社",
-      "address": "東京都江東区豊洲1-1-1",
-      "industry": "EC/IT",
-      "website": "https://ec-tech.co.jp",
+      "name": "TaskFlow Systems",
+      "address": "Toranomon Hills, Tokyo",
+      "industry": "Enterprise Software",
+      "website": "https://www.taskflow.example",
       "job_postings": [
         {
-          "title": "ECプラットフォームエンジニア",
-          "description": "大規模ECサイトの開発・運用を担当するバックエンドエンジニアを募集しています。高トラフィックに耐えうるスケーラブルなシステム設計、パフォーマンス最適化、決済システム連携などを担当していただきます。ECビジネスの成長を技術面から支えるポジションです。",
-          "requirements": "4年以上のWebアプリケーション開発経験、Java/Kotlinでの開発スキル、RDBMSの知識、ECサイト開発の経験。マイクロサービスアーキテクチャの理解があると望ましい。",
-          "salary_range": "650万〜950万円",
-          "location": "東京都江東区（リモート勤務2日/週可）",
-          "employment_type": "正社員",
+          "title": "Mid-level Frontend Engineer",
+          "description": "Join TaskFlow's frontend team to build modern, intuitive interfaces for our project management tools. You'll create user experiences that help teams collaborate more effectively, with guidance from senior engineers. This role offers the opportunity to develop your frontend expertise while working in a globally distributed team. You'll gain experience with large-scale web applications and have a clear path for professional advancement.",
+          "requirements": "2-4 years of frontend development experience, solid React skills, basic TypeScript knowledge, understanding of responsive design principles, and business-level English communication skills.",
+          "salary_range": "¥6M - ¥9M annually",
+          "location": "Tokyo (Remote)",
+          "employment_type": "Full-time",
           "posting_date": "2025-03-31T00:00:00Z",
           "closing_date": "2025-05-01T00:00:00Z",
-          "status": "公開中",
-          "positions": ["バックエンドエンジニア"]
+          "status": "Active",
+          "positions": ["Frontend Engineer"]
         }
       ]
     },
     {
-      "name": "ヘルステック株式会社",
-      "address": "東京都文京区本郷5-3-2",
-      "industry": "ヘルスケア/IT",
-      "website": "https://health-tech.co.jp",
+      "name": "ConsultEdge",
+      "address": "Otemachi, Tokyo",
+      "industry": "Consulting",
+      "website": "https://www.consultedge.example",
       "job_postings": [
         {
-          "title": "ヘルスケアアプリ開発エンジニア",
-          "description": "健康管理や医療支援を目的としたモバイルアプリの開発を担当していただきます。医療データの安全な取り扱いを考慮しながら、使いやすく効果的なヘルスケアソリューションを構築します。医療従事者やユーザーと協力し、社会的意義のある製品開発に携わるポジションです。",
-          "requirements": "3年以上のモバイルアプリ開発経験（Swift/KotlinまたはFlutter/React Native）、ヘルスケア関連APIやBLEデバイス連携の知識。医療系アプリの開発経験があると望ましい。",
-          "salary_range": "650万〜900万円",
-          "location": "フルリモート",
-          "employment_type": "正社員",
+          "title": "Junior Data Engineer",
+          "description": "Join ConsultEdge to help build data solutions for clients across industries. You'll assist in designing and implementing data pipelines and analytics platforms, with mentorship from experienced engineers. This role offers exposure to diverse business challenges and the opportunity to develop specialized data skills. You'll work in multi-disciplinary teams and have a structured career path to grow your technical and consulting capabilities.",
+          "requirements": "1-2 years of data engineering or software experience, basic SQL skills, familiarity with Python, understanding of data concepts, and intermediate English proficiency.",
+          "salary_range": "¥5M - ¥7.5M annually",
+          "location": "Tokyo (Hybrid)",
+          "employment_type": "Full-time",
           "posting_date": "2025-04-01T00:00:00Z",
           "closing_date": "2025-05-02T00:00:00Z",
-          "status": "公開中",
-          "positions": ["モバイルエンジニア", "フルスタックエンジニア"]
+          "status": "Active",
+          "positions": ["Data Engineer"]
         }
       ]
     },
     {
-      "name": "フィンテックイノベーション株式会社",
-      "address": "東京都千代田区大手町1-6-1",
-      "industry": "フィンテック",
-      "website": "https://fintech-innovation.co.jp",
+      "name": "CommerceFly",
+      "address": "Shibuya Hikarie, Tokyo",
+      "industry": "E-Commerce",
+      "website": "https://www.commercefly.example",
       "job_postings": [
         {
-          "title": "フィンテックバックエンドエンジニア",
-          "description": "次世代の金融サービスを支えるバックエンド開発を担当していただきます。決済システム、取引プラットフォーム、リスク分析エンジンなど、ミッションクリティカルな金融システムの設計・開発に携わります。セキュリティと高可用性を重視した開発経験を積めるポジションです。",
-          "requirements": "5年以上のバックエンド開発経験、Java/Go/Pythonいずれかの言語に習熟、金融システムの知識、セキュリティを考慮した設計経験。金融機関での開発経験があると望ましい。",
-          "salary_range": "800万〜1200万円",
-          "location": "東京都千代田区",
-          "employment_type": "正社員",
+          "title": "Junior Ruby Developer",
+          "description": "Join CommerceFly's platform team to help build and scale our e-commerce infrastructure. You'll work on backend services that power online stores for merchants worldwide, with guidance from experienced developers. This role offers excellent learning opportunities in a supportive, international environment. You'll develop your Ruby and web development skills while contributing to meaningful projects with real-world impact.",
+          "requirements": "0-2 years of software development experience, basic Ruby or Rails knowledge, familiarity with web technologies, understanding of databases, and conversational English communication skills.",
+          "salary_range": "¥4.5M - ¥7M annually",
+          "location": "Tokyo (Remote)",
+          "employment_type": "Full-time",
           "posting_date": "2025-04-02T00:00:00Z",
           "closing_date": "2025-05-03T00:00:00Z",
-          "status": "公開中",
-          "positions": ["バックエンドエンジニア"]
+          "status": "Active",
+          "positions": ["Backend Engineer", "Fullstack Engineer"]
         }
       ]
     },
     {
-      "name": "テックスタートアップ株式会社",
-      "address": "東京都渋谷区神宮前6-12-18",
-      "industry": "IT",
-      "website": "https://tech-startup.co.jp",
+      "name": "GameTech Studios",
+      "address": "Shibuya Scramble Square, Tokyo",
+      "industry": "Game Development",
+      "website": "https://www.gametech.example",
       "job_postings": [
         {
-          "title": "創業エンジニア（CTO候補）",
-          "description": "シリーズAのスタートアップで技術部門を牽引する創業エンジニアを募集しています。プロダクトの技術戦略の策定、アーキテクチャ設計、チーム構築などを担当し、将来的にはCTOとして会社の成長をリードしていただきます。大きな裁量と責任を持って働ける環境です。",
-          "requirements": "8年以上のソフトウェア開発経験、アーキテクチャ設計のスキル、チームマネジメント経験、スタートアップでの就業経験。起業経験者も歓迎。",
-          "salary_range": "1000万〜1500万円（ストックオプション別途）",
-          "location": "フルリモート（月1回の東京オフィス出社あり）",
-          "employment_type": "正社員",
+          "title": "Junior Game Engineer",
+          "description": "Join GameTech Studios to help create engaging mobile and casual games. You'll work on game mechanics, optimization, and platform integration, with mentorship from experienced game developers. This role provides an excellent opportunity to start your career in game development while working in an international creative environment. You'll develop technical skills specific to game engineering and have opportunities to grow within the company.",
+          "requirements": "0-2 years of programming experience, basic C# or C++ skills, familiarity with a game engine (Unity/Unreal), understanding of game development concepts, and conversational English skills.",
+          "salary_range": "¥4M - ¥7M annually",
+          "location": "Tokyo",
+          "employment_type": "Full-time",
           "posting_date": "2025-04-03T00:00:00Z",
           "closing_date": "2025-05-04T00:00:00Z",
-          "status": "公開中",
-          "positions": ["フルスタックエンジニア", "バックエンドエンジニア"]
+          "status": "Active",
+          "positions": ["Game Engineer", "Mobile Engineer"]
         }
       ]
     }
