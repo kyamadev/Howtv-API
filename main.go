@@ -4,6 +4,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -19,11 +20,12 @@ import (
 func setupRouter() *gin.Engine {
 	r := gin.Default()
 
-	config := cors.DefaultConfig()
-	config.AllowAllOrigins = true // 開発環境
-	config.AllowHeaders = []string{"Origin", "Content-Type", "Accept"}
-	config.AllowMethods = []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}
-	r.Use(cors.New(config))
+	// CORS設定
+	corsConfig := cors.DefaultConfig()
+	corsConfig.AllowAllOrigins = true
+	corsConfig.AllowHeaders = []string{"Origin", "Content-Type", "Accept"}
+	corsConfig.AllowMethods = []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}
+	r.Use(cors.New(corsConfig))
 
 	// Ping test
 	r.GET("/ping", func(c *gin.Context) {
@@ -47,6 +49,16 @@ func setupRouter() *gin.Engine {
 
 		// Roadmap Generation
 		v1.GET("/jobs/:uuid/roadmap", controllers.GenerateRoadmap)
+
+		// デバッグエンドポイント（開発環境のみ）
+		if gin.Mode() != gin.ReleaseMode {
+			debug := v1.Group("/debug")
+			{
+				debug.GET("/stats", controllers.DataStats)
+				debug.POST("/fix-positions", controllers.FixMissingPositions)
+				debug.POST("/reseed", controllers.ResetAndReseed)
+			}
+		}
 	}
 
 	return r
@@ -54,17 +66,87 @@ func setupRouter() *gin.Engine {
 
 func initDatabase() {
 	var err error
-	controllers.DB, err = gorm.Open(sqlite.Open("test.db"), &gorm.Config{})
-	if err != nil {
-		log.Fatalf("Failed to connect to database: %v", err)
+	dbPath := os.Getenv("DB_PATH")
+	if dbPath == "" {
+		dbPath = "test.db"
 	}
 
-	// Auto migrate the schema
-	controllers.DB.AutoMigrate(&models.Company{}, &models.JobPosting{}, &models.Position{})
+	log.Printf("データベースファイル: %s", dbPath)
 
-	// Seed the database with mock data
-	if err := scripts.SeedDatabase("mockdata.txt"); err != nil {
-		log.Printf("Warning: Failed to seed database: %v", err)
+	// データベース接続
+	controllers.DB, err = gorm.Open(sqlite.Open(dbPath), &gorm.Config{})
+	if err != nil {
+		log.Fatalf("データベース接続に失敗しました: %v", err)
+	}
+
+	// スキーママイグレーション
+	log.Println("データベースマイグレーションを開始します...")
+	err = controllers.DB.AutoMigrate(&models.Company{}, &models.JobPosting{}, &models.Position{})
+	if err != nil {
+		log.Fatalf("マイグレーションに失敗しました: %v", err)
+	}
+	log.Println("マイグレーション完了")
+
+	// データベースの内容を確認（再シードするかどうか判断するため）
+	var positionCount, jobCount int64
+	controllers.DB.Model(&models.Position{}).Count(&positionCount)
+	controllers.DB.Model(&models.JobPosting{}).Count(&jobCount)
+
+	log.Printf("データベース状態: ポジション %d件, 求人 %d件", positionCount, jobCount)
+
+	// モックデータファイルのパスを確認
+	mockDataPath := "mockdata.txt"
+	if _, err := os.Stat(mockDataPath); os.IsNotExist(err) {
+		// カレントディレクトリの絶対パスを取得
+		cwd, _ := os.Getwd()
+		// 代替パスを試す
+		alternativePaths := []string{
+			"mockdata.txt",
+			filepath.Join(cwd, "mockdata.txt"),
+			filepath.Join(cwd, "..", "mockdata.txt"),
+		}
+
+		for _, path := range alternativePaths {
+			if _, err := os.Stat(path); err == nil {
+				mockDataPath = path
+				log.Printf("モックデータファイルを見つけました: %s", mockDataPath)
+				break
+			}
+		}
+	}
+
+	// データがない、または明示的に再シードが要求された場合（環境変数RESEED=true）
+	needsSeeding := positionCount == 0 || jobCount == 0 || os.Getenv("RESEED") == "true"
+
+	if needsSeeding {
+		log.Println("データベースをシードします...")
+
+		// 既存のポジション関連をリセット（重複防止）
+		if jobCount > 0 {
+			log.Println("既存のポジション関連をリセットします...")
+			if err := scripts.ResetPositionAssociations(); err != nil {
+				log.Printf("警告: ポジション関連のリセットに失敗しました: %v", err)
+			}
+		}
+
+		// データベースのシード
+		if err := scripts.SeedDatabase(mockDataPath); err != nil {
+			log.Printf("警告: データベースのシードに失敗しました: %v", err)
+		} else {
+			log.Println("データベースのシードに成功しました")
+		}
+
+		// シード後のデータ確認
+		controllers.DB.Model(&models.Position{}).Count(&positionCount)
+		controllers.DB.Model(&models.JobPosting{}).Count(&jobCount)
+		log.Printf("シード後のデータ状態: ポジション %d件, 求人 %d件", positionCount, jobCount)
+
+		// 求人とポジションの関連を確認
+		var associationCount int64
+		controllers.DB.Table("job_positions").Count(&associationCount)
+		log.Printf("求人とポジションの関連: %d件", associationCount)
+	} else {
+		log.Println("データベースは既に初期化されています。シードはスキップします。")
 	}
 }
 
